@@ -3,8 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
+  <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    <script src="javascript.js"></script>
+  <div class = "flex-container">
+    <h1>Rock paper scissors</h1>
+    <div class = "button-container">
+      <button id = "rock">Rock</button>
+      <button id = "paper">Paper</button>
+      <button id = "scissors" >Scissors</button>
+    </div>
+
+    <div class = "result-container">
+      <h3>Result</h3>
+        <div class = "result">
+          <p>You chose ... and the computer chose ...</p>
+          <p class = "round-result">...</p>
+        </div>
+      <h3>Score</h3>
+      <div class = "score-container">
+          
+          <div class = "player-score">
+              <h4>Player</h4>
+              <p>0</p>
+          </div>
+          <div class = "computer-score">
+              <h4>Computer</h4>
+              <p>0</p>
+          </div>
+      </div>
+      <div class = "winner-container">
+        <h3>Winner</h3>
+        <p>???</p>
+      </div>
+    </div>
+  </div>
 </body>
+<script src="javascript.js"></script>
 </html>
